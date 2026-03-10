@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "lipsum"
-version = "dev-1"
+version = "1.0.0-1"
 source = {
    url = "git+https://github.com/ProCern/lua-lipsum.git",
    tag = 'v1.0.0',
@@ -13,25 +13,6 @@ description = {
 }
 dependencies = {
    "lua >= 5.1, < 5.6",
-   queries = {
-      {
-         constraints = {
-            {
-               op = ">=",
-               version = {
-                  5, 1, string = "5.1"
-               }
-            },
-            {
-               op = "<",
-               version = {
-                  5, 6, string = "5.6"
-               }
-            }
-         },
-         name = "lua"
-      }
-   }
 }
 build = {
    type = "builtin",
