@@ -16,3 +16,6 @@ dependencies = {
 build = {
    type = "builtin",
 }
+test = {
+   type = 'busted',
+}
