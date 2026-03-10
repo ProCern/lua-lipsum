@@ -12,25 +12,6 @@ description = {
 }
 dependencies = {
    "lua >= 5.1, < 5.6",
-   queries = {
-      {
-         constraints = {
-            {
-               op = ">=",
-               version = {
-                  5, 1, string = "5.1"
-               }
-            },
-            {
-               op = "<",
-               version = {
-                  5, 6, string = "5.6"
-               }
-            }
-         },
-         name = "lua"
-      }
-   }
 }
 build = {
    type = "builtin",
